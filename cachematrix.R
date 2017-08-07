@@ -1,6 +1,7 @@
 ## This function intends to cache the inverse of a matrix, because matrix inverstion is usually a costly computation.  
 ## Caching the inverse of a matrix will consume less time than computing the matrix repeatedly.
-## This "makeCacheMatrix" function is used to create a special "matrix"
+## This "makeCacheMatrix" function is used to create a special "matrix." A special matrix must be set up 
+## before using the next "cacheSolve" function
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
